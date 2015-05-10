@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9137698AC9B9C7717C10975C /* libPods-ParalaxTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0607F1796F654A0DFBF56B9 /* libPods-ParalaxTest.a */; };
+		CC05F32C1AFCEACE0059D268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05F32B1AFCEACE0059D268 /* AppDelegate.swift */; };
+		CC05F32E1AFCEACE0059D268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05F32D1AFCEACE0059D268 /* ViewController.swift */; };
+		CC05F3311AFCEACE0059D268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC05F32F1AFCEACE0059D268 /* Main.storyboard */; };
+		CC05F3331AFCEACE0059D268 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC05F3321AFCEACE0059D268 /* Images.xcassets */; };
+		CC05F3361AFCEACE0059D268 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC05F3341AFCEACE0059D268 /* LaunchScreen.xib */; };
+		CC05F3421AFCEACE0059D268 /* ParalaxTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05F3411AFCEACE0059D268 /* ParalaxTestTests.swift */; };
+		CC05F35F1AFD161C0059D268 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05F35D1AFD161C0059D268 /* Page1ViewController.swift */; };
+		CC05F3601AFD161C0059D268 /* Page1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC05F35E1AFD161C0059D268 /* Page1View.xib */; };
+		CC05F37C1AFD28070059D268 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = CC05F37B1AFD28070059D268 /* bg2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC05F33C1AFCEACE0059D268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC05F31E1AFCEACE0059D268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC05F3251AFCEACE0059D268;
+			remoteInfo = ParalaxTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D32DAD884048026BD0EEDE0 /* Pods-ParalaxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParalaxTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParalaxTest/Pods-ParalaxTest.release.xcconfig"; sourceTree = "<group>"; };
+		45666FE18FCB71200D627D27 /* Pods-ParalaxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParalaxTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParalaxTest/Pods-ParalaxTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CC05F3261AFCEACE0059D268 /* ParalaxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParalaxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC05F32A1AFCEACE0059D268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC05F32B1AFCEACE0059D268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC05F32D1AFCEACE0059D268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC05F3301AFCEACE0059D268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC05F3321AFCEACE0059D268 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC05F3351AFCEACE0059D268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC05F33B1AFCEACE0059D268 /* ParalaxTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParalaxTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC05F3401AFCEACE0059D268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC05F3411AFCEACE0059D268 /* ParalaxTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParalaxTestTests.swift; sourceTree = "<group>"; };
+		CC05F34B1AFCEAED0059D268 /* ParalaxTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParalaxTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC05F35D1AFD161C0059D268 /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		CC05F35E1AFD161C0059D268 /* Page1View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page1View.xib; sourceTree = "<group>"; };
+		CC05F37B1AFD28070059D268 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		D0607F1796F654A0DFBF56B9 /* libPods-ParalaxTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParalaxTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC05F3231AFCEACE0059D268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9137698AC9B9C7717C10975C /* libPods-ParalaxTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05F3381AFCEACE0059D268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356A2638D942AF2B71DFD3BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45666FE18FCB71200D627D27 /* Pods-ParalaxTest.debug.xcconfig */,
+				3D32DAD884048026BD0EEDE0 /* Pods-ParalaxTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC05F31D1AFCEACE0059D268 = {
+			isa = PBXGroup;
+			children = (
+				CC05F3281AFCEACE0059D268 /* ParalaxTest */,
+				CC05F33E1AFCEACE0059D268 /* ParalaxTestTests */,
+				CC05F3271AFCEACE0059D268 /* Products */,
+				356A2638D942AF2B71DFD3BB /* Pods */,
+				EBAF63ECB7BB20EC718CE4AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC05F3271AFCEACE0059D268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC05F3261AFCEACE0059D268 /* ParalaxTest.app */,
+				CC05F33B1AFCEACE0059D268 /* ParalaxTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC05F3281AFCEACE0059D268 /* ParalaxTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC05F32B1AFCEACE0059D268 /* AppDelegate.swift */,
+				CC05F32D1AFCEACE0059D268 /* ViewController.swift */,
+				CC05F32F1AFCEACE0059D268 /* Main.storyboard */,
+				CC05F3321AFCEACE0059D268 /* Images.xcassets */,
+				CC05F37B1AFD28070059D268 /* bg2.png */,
+				CC05F3341AFCEACE0059D268 /* LaunchScreen.xib */,
+				CC05F3291AFCEACE0059D268 /* Supporting Files */,
+				CC05F34B1AFCEAED0059D268 /* ParalaxTest-Bridging-Header.h */,
+				CC05F35D1AFD161C0059D268 /* Page1ViewController.swift */,
+				CC05F35E1AFD161C0059D268 /* Page1View.xib */,
+			);
+			path = ParalaxTest;
+			sourceTree = "<group>";
+		};
+		CC05F3291AFCEACE0059D268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC05F32A1AFCEACE0059D268 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC05F33E1AFCEACE0059D268 /* ParalaxTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC05F3411AFCEACE0059D268 /* ParalaxTestTests.swift */,
+				CC05F33F1AFCEACE0059D268 /* Supporting Files */,
+			);
+			path = ParalaxTestTests;
+			sourceTree = "<group>";
+		};
+		CC05F33F1AFCEACE0059D268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC05F3401AFCEACE0059D268 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBAF63ECB7BB20EC718CE4AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0607F1796F654A0DFBF56B9 /* libPods-ParalaxTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC05F3251AFCEACE0059D268 /* ParalaxTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC05F3451AFCEACE0059D268 /* Build configuration list for PBXNativeTarget "ParalaxTest" */;
+			buildPhases = (
+				9BEB129295B547C5A54C9A02 /* Check Pods Manifest.lock */,
+				CC05F3221AFCEACE0059D268 /* Sources */,
+				CC05F3231AFCEACE0059D268 /* Frameworks */,
+				CC05F3241AFCEACE0059D268 /* Resources */,
+				51770495455F01B20B21AD65 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParalaxTest;
+			productName = ParalaxTest;
+			productReference = CC05F3261AFCEACE0059D268 /* ParalaxTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC05F33A1AFCEACE0059D268 /* ParalaxTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC05F3481AFCEACE0059D268 /* Build configuration list for PBXNativeTarget "ParalaxTestTests" */;
+			buildPhases = (
+				CC05F3371AFCEACE0059D268 /* Sources */,
+				CC05F3381AFCEACE0059D268 /* Frameworks */,
+				CC05F3391AFCEACE0059D268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC05F33D1AFCEACE0059D268 /* PBXTargetDependency */,
+			);
+			name = ParalaxTestTests;
+			productName = ParalaxTestTests;
+			productReference = CC05F33B1AFCEACE0059D268 /* ParalaxTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC05F31E1AFCEACE0059D268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Michael Gorski";
+				TargetAttributes = {
+					CC05F3251AFCEACE0059D268 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CC05F33A1AFCEACE0059D268 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CC05F3251AFCEACE0059D268;
+					};
+				};
+			};
+			buildConfigurationList = CC05F3211AFCEACE0059D268 /* Build configuration list for PBXProject "ParalaxTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC05F31D1AFCEACE0059D268;
+			productRefGroup = CC05F3271AFCEACE0059D268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC05F3251AFCEACE0059D268 /* ParalaxTest */,
+				CC05F33A1AFCEACE0059D268 /* ParalaxTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC05F3241AFCEACE0059D268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC05F3311AFCEACE0059D268 /* Main.storyboard in Resources */,
+				CC05F3601AFD161C0059D268 /* Page1View.xib in Resources */,
+				CC05F3361AFCEACE0059D268 /* LaunchScreen.xib in Resources */,
+				CC05F37C1AFD28070059D268 /* bg2.png in Resources */,
+				CC05F3331AFCEACE0059D268 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05F3391AFCEACE0059D268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51770495455F01B20B21AD65 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParalaxTest/Pods-ParalaxTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BEB129295B547C5A54C9A02 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC05F3221AFCEACE0059D268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC05F32E1AFCEACE0059D268 /* ViewController.swift in Sources */,
+				CC05F35F1AFD161C0059D268 /* Page1ViewController.swift in Sources */,
+				CC05F32C1AFCEACE0059D268 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05F3371AFCEACE0059D268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC05F3421AFCEACE0059D268 /* ParalaxTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC05F33D1AFCEACE0059D268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC05F3251AFCEACE0059D268 /* ParalaxTest */;
+			targetProxy = CC05F33C1AFCEACE0059D268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC05F32F1AFCEACE0059D268 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC05F3301AFCEACE0059D268 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC05F3341AFCEACE0059D268 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC05F3351AFCEACE0059D268 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC05F3431AFCEACE0059D268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC05F3441AFCEACE0059D268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC05F3461AFCEACE0059D268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45666FE18FCB71200D627D27 /* Pods-ParalaxTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ParalaxTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParalaxTest/ParalaxTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC05F3471AFCEACE0059D268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D32DAD884048026BD0EEDE0 /* Pods-ParalaxTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ParalaxTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParalaxTest/ParalaxTest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CC05F3491AFCEACE0059D268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParalaxTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParalaxTest.app/ParalaxTest";
+			};
+			name = Debug;
+		};
+		CC05F34A1AFCEACE0059D268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParalaxTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParalaxTest.app/ParalaxTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC05F3211AFCEACE0059D268 /* Build configuration list for PBXProject "ParalaxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC05F3431AFCEACE0059D268 /* Debug */,
+				CC05F3441AFCEACE0059D268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC05F3451AFCEACE0059D268 /* Build configuration list for PBXNativeTarget "ParalaxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC05F3461AFCEACE0059D268 /* Debug */,
+				CC05F3471AFCEACE0059D268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC05F3481AFCEACE0059D268 /* Build configuration list for PBXNativeTarget "ParalaxTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC05F3491AFCEACE0059D268 /* Debug */,
+				CC05F34A1AFCEACE0059D268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC05F31E1AFCEACE0059D268 /* Project object */;
+}

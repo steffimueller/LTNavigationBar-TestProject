@@ -1,0 +1,10 @@
+PODS:
+  - LTNavigationBar (2.0.3)
+
+DEPENDENCIES:
+  - LTNavigationBar (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  LTNavigationBar: 28903730dc6babd80059c391ce095ac179ce454d
+
+COCOAPODS: 0.37.1
