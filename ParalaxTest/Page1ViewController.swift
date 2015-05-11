@@ -32,15 +32,14 @@ class Page1ViewController: UIViewController, UITableViewDataSource, UITableViewD
     topView.backgroundColor = UIColor.yellowColor()
    // topView.clipsToBounds = true
     
-  //  tableView.tableHeaderView = topView
+    tableView.tableHeaderView = topView
 //    tableView.backgroundView = testView
     
-    tableView.addSubview(topView)
     
   
     let img = UIImage(named: "bg")
     topImageView = UIImageView(image: img)
-    topImageView?.frame = CGRectMake(0, -89, 320, 307)
+    topImageView?.frame = CGRectMake(0, -89, UIScreen.mainScreen().bounds.size.width, 307)
     topImageView?.contentMode = UIViewContentMode.ScaleToFill
     topView.addSubview(topImageView!)
 
